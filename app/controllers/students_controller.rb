@@ -14,7 +14,11 @@ class StudentsController < ApplicationController
   end
 
   def edit
+<<<<<<< HEAD
     @student = Student.find_by_id(params[:id])
+=======
+    @student = SchoolClass.find_by_id(params[:id])
+>>>>>>> b831f6ba4039952b03660e35411c593fdb2ae58d
   end
 
   def update
